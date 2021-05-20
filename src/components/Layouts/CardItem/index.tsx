@@ -9,7 +9,7 @@ const CardItem: FC<ProductTypes> = ({ name, price, color, img }) => (
     <div className="card-color">{color}</div>
     <div className="card-product__image">
       <img
-        src={`https://ChernyshevaNetology.github.io/products-layout-typescript/images/${img}`}
+        src={`https://ChernyshevaNetology.github.io/products-layout/images/${img}`}
         alt={name}
       />
     </div>
