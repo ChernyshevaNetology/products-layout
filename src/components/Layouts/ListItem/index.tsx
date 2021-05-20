@@ -5,7 +5,7 @@ const ListItem: FC<ProductTypes> = ({ img, name, color, price }) => (
   <div className="card_view">
     <div className="card-product_view">
       <img
-        src={`https://letsget.github.io/products-layout-typescript/images/${img}`}
+        src={`https://ChernyshevaNetology.github.io/products-layout-typescript/images/${img}`}
         alt={name}
       />
     </div>

@@ -1,9 +1,9 @@
 import React, { FC, useState } from 'react';
 import { nanoid } from 'nanoid';
-import { ProductTypes } from '../../types';
-import IconSwitch from '../../components/ViewToggleIcon';
-import CardView from '../../components/CardView';
-import ListView from '../../components/ListView';
+import { ProductTypes } from 'types';
+import IconSwitch from 'components/ViewToggleIcon';
+import CardView from 'components/CardView';
+import ListView from 'components/ListView';
 
 const products = [
   {

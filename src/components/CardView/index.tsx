@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProductTypes } from '../../types';
+import { ProductTypes } from 'types';
 import CardItem from '../Layouts/CardItem';
 
 interface Props {
