@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProductTypes } from '../../../types';
+import { ProductTypes } from 'types';
 
 const ListItem: FC<ProductTypes> = ({ img, name, color, price }) => (
   <div className="card_view">

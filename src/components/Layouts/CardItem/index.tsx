@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProductTypes } from '../../../types';
+import { ProductTypes } from 'types';
 
 const CardItem: FC<ProductTypes> = ({ name, price, color, img }) => (
   <div className="card">
